@@ -1,5 +1,6 @@
 <!Doctype html>
 <html>
+<!--head-->
 <head>
 	<title>Web developer - Linda Holmberg</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,156 +12,159 @@
 <!--Body-->
 <body>
 	<!--Navigation-bar-->
-	<div class="page-header">
-
-	
-	<div class ="navbar navbar-default navbar-static-top">
-		<div class="container">
-			<div class ="navbar-brand">Linda Holmberg</div>	
-			<div class="collapse navbar-collapse navHeaderCollpse">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#">Welcome</a></li>
-					<li><a href="#">About Me</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
+	<div class="container">
+		<div id="nav">
+			<div class ="navbar navbar-default navbar-static-top">
+				<div class="container">
+					<div class ="navbar-brand">Linda Holmberg</div>	
+					<div class="collapse navbar-collapse navHeaderCollpse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#nav">Welcome</a></li>
+							<li><a href="#mywork">About Me</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	</div>
+
 	<!--Jumbotron-->
 	<div class="jumbotron">
 		<div class="container">
 			<center>
-				<img src="img/profilbildlinda.jpg" alt="Linda Holmberg" class="img-circle" height="300px" width="300px">
+				<img src="img/profilbildlinda.jpg" alt="Linda Holmberg" class="img-circle" height="200px" width="200px">
 				<h1>Linda Holmberg</h1>
 				<p> - Web developer</p>
-				<a class="btn btn-defualt"<span class="glyphicon glyphicon-star" aria-hidden="true">Contact</span></a>
+				<a class="btn btn-defualt">Contact</a>
 				<a class="btn btn-info">Portfolio</a>
 			</center>
 		</div>
 	</div>
-</div>
-</div>
 
-<!--Navtab about me-->
-<center>
-<div class="container">
-	<h2>My work</h2>
-		<ul class="nav nav-tabs">
-				<li class="active"><a data-toggle="tab" href="#about">About me</a></li>
-				<li ><a data-toggle="tab" href="#webdeveloper">Web developer</a></li>
-				<li ><a data-toggle="tab" href="#design">Design</a></li>
-			</ul>
-
-			<div class="tab-content">
-				<div id="about" class="tab-pane fade in active">
-					<img src="img/profilbildlinda.jpg" "img-circle" height="300px" width="300px">
-					<h3>About me</h3>
-					<p>Jag är en 22 år, bor i schweiz. Älskar design och ny tänkade</p>
-				</div>
-				<div id="webdeveloper" class="tab-pane fade">
-					<img src="img/profilbildlinda.jpg" "img-circle" height="300px" width="300px">
-					<h3>Web developer</h3>
-					<p>My carrie as a web developer have just started, but I know I have a long way to go! I Love to design,figure out why things doesn´t work and help people with thier problems!</p>
-				</div>
-				<div id="design" class="tab-pane fade">
-					<img src="img/profilbildlinda.jpg" "img-circle" height="300px" width="300px">
-					<h3>Design</h3>
-					<p class="text-primary">Design is a very importent ingredesn in web development</p>
-				</div>
-			</div>
-	</div>
-</div>
-</center>
-
-
-<!--Photo Galleriy-->
-<div class="container">
-	<div class="row">
-		<div class="img">
-			<a target="_blank" href="#">
-				<img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
-			</a>
-			<div class="desc" class="text-primary">Add a description of the image here
-			</div>
-		</div>
-
-		<div class="img">
-			<a target="_blank" href="#">
-				<img src="img_forest.jpg" alt="Forest" width="600" height="400">
-			</a>
-			<div class="desc" class="text-primary">Add a description of the image here</div>
-		</div>
-
-		<div class="img">
-			<a target="_blank" href="#">
-				<img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-			</a>
-			<div class="desc" class="text-primary">Add a description of the image here
-			</div>
-		</div>
-
-		<div class="img">
-			<a target="_blank" href="#">
-				<img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-			</a>
-			<div class="desc" class="text-primary">Add a description of the image here
-			</div>
-		</div>
-		<div class="img">
-			<a target="_blank" href="#">
-				<img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-			</a>
-			<div class="desc" class="text-primary">Add a description of the image here
-			</div>
-		</div>
-		<div class="img">
-			<a target="_blank" href="#">
-				<img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-			</a>
-			<div class="desc" class="text-primary">Add a description of the image here
-			</div>
-		</div>
-	</div>
-</div>
-
-<!---Contact Form-->
-<form>
+	<!--Navtab My work-->
 	<center>
 		<div class="container">
-			<div class="row">
-				<div class="form-group">
-					<div class="col-xs-4">
-						<label for="Email" class="text-primary">Email address</label>
-						<input type="email" class="form-control" id="Email" placeholder="Your Email">
+			<div id="mywork">
+				<h2>My work</h2>
+				<ul class="nav nav-tabs">
+					<li class="active"><a data-toggle="tab" href="#about">About me</a></li>
+					<li ><a data-toggle="tab" href="#webdeveloper">Web developer</a></li>
+					<li ><a data-toggle="tab" href="#design">Design</a></li>
+				</ul>
+
+				<div class="tab-content">
+					<div id="about" class="tab-pane fade in active">
+						<img src="img/profilbildlinda.jpg" "img-circle" height="300px" width="300px">
+						<h3>About me</h3>
+						<p>Jag är en 22 år, bor i schweiz. Älskar design och ny tänkade</p>
 					</div>
-					<div class="form-group">
-						<div class="col-xs-4">
-							<label for="Messenger" class="text-primary">Messenger</label>
-							<textarea
-							<input type="messenger" class="form-control" id="messenger" placeholder="Messenger" rows="4"></textarea>
-						</div>
+					<div id="webdeveloper" class="tab-pane fade">
+						<img src="img/profilbildlinda.jpg" "img-circle" height="300px" width="300px">
+						<h3>Web developer</h3>
+						<p>My carrie as a web developer have just started, but I know I have a long way to go! I Love to design,figure out why things doesn´t work and help people with thier problems!</p>
 					</div>
-					<button type="submit" class="btn btn-primary">Send</button>
+					<div id="design" class="tab-pane fade">
+						<img src="img/profilbildlinda.jpg" "img-circle" height="300px" width="300px">
+						<h3>Design</h3>
+						<p class="text-primary">Design is a very importent ingredesn in web development</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</center>
-</form>
-<!--Footer-->
-<div class="panel panel-default">
-	<div class="panel-body">
-		Panel content
-	</div>
-	<div class="panel-footer panel-primary">Site Built by Linda Holmberg</div>
-</div>
-	<!--<div class="navbar navbar-default navbar-fixed-bottom">
-		<div class="container">
-			<p class="navbar-text">Site Built by Linda Holmberg</p>
-		</div>
-	</div>-->
 
+	<!--Photo Galleriy-->
+	<center>
+		<div class="container">
+			<div id="portfolio">
+				<h2>Portfolio</h2>
+				<div class="row">
+					<div class="img">
+						<a target="_blank" href="#">
+							<img src="img/vattenfall.jpeg" alt="img1" width="300" height="200">
+						</a>
+						<div class="desc" class="text-primary">Add a description of the image here
+						</div>
+					</div>
+
+					<div class="img">
+						<a target="_blank" href="#">
+							<img src="img/angular.png" alt="img2" width="600" height="400">
+						</a>
+						<div class="desc" class="text-primary">Add a description of the image here</div>
+					</div>
+
+					<div class="img">
+						<a target="_blank" href="#">
+							<img src="img/html5logo.png" alt="img3" width="600" height="400">
+						</a>
+						<div class="desc" class="text-primary">Add a description of the image here
+						</div>
+					</div>
+
+					<div class="img">
+						<a target="_blank" href="#">
+							<img src="img/js.png" alt="img4" width="600" height="400">
+						</a>
+						<div class="desc" class="text-primary">Add a description of the image here
+						</div>
+					</div>
+					<div class="img">
+						<a target="_blank" href="#">
+							<img src="img/natur.jpeg" alt="img5" width="600" height="400">
+						</a>
+						<div class="desc" class="text-primary">Add a description of the image here
+						</div>
+					</div>
+					<div class="img">
+						<a target="_blank" href="#">
+							<img src="img/css3logo.png" alt="img6" width="600" height="400">
+						</a>
+						<div class="desc" class="text-primary">Add a description of the image here
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>
+
+	<!---Contact Form-->
+	<form>
+		<center>
+			<div class="container">
+				<div id="contact">
+					<h2>Contact</h2>
+					<div class="row">
+						<div class="form-group">
+							<div class="col-xs-4">
+								<label for="Email" class="text-primary">Email address</label>
+								<input type="email" class="form-control" id="Email" placeholder="Your Email">
+							</div>
+							<div class="form-group">
+								<div class="col-xs-4">
+									<label for="Messenger" class="text-primary">Messenger</label>
+									<textarea
+									<input type="messenger" class="form-control" id="messenger" placeholder="Messenger" rows="4"></textarea>
+								</div>
+							</div>
+							<button type="submit" class="btn btn-primary">Send</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</center>
+	</form>
+
+	<!--Footer-->
+	<div class="panel panel-default">
+		<div class="panel-body">
+			Thanks!
+		</div>
+		<div class="panel-footer panel-primary">Site Built by Linda Holmberg</div>
+	</div>
+	
 	<!--Script-->
 	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="js/bootstrap.js"></script>
