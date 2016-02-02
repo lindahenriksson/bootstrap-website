@@ -1,14 +1,40 @@
-ul {
-   background-color: #FFFFFF;    
-}
 
 body {
-	margin-bottom: 80px;
-	background-color: #FFFFFF;	
+background-color: #000;
+font-family: Verdana;
+font-size: 16px;
+color: #999
 }
-.jumbotron {
-    height: 500px;
-    b: url('img/profilbildlinda.jpg');
+#navbar{
+
+font-family: Verdana;
+font-size: 16px;
+
+}
+#jumbotron{
+background-color: #80D8FF;
+font-family: Verdana;
+font-size: 16px;
+color: #406C7F;
+}
+#mywork
+{background-color: #80D8FF;
+font-family: Verdana;
+font-size: 16px;
+color: #406C7F;
+}
+#portfolio{
+   color: #406C7F; 
+   font-family: Verdana;s
+    font-size: 16px;
+    background-color: #80D8FF;
+}
+#contact{
+    background-color: #80D8FF;
+font-family: Verdana;
+font-size: 16px;
+color: #406C7F;
+}
 }
 .panel-body{
 	padding-top: 0;
