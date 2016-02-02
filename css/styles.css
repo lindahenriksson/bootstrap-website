@@ -1,10 +1,14 @@
+ul {
+   background-color: #FFFFFF;    
+}
+
 body {
 	margin-bottom: 80px;
-	background-color: #FFFFFF;
-	background-image: zurich.jpg;
+	background-color: #FFFFFF;	
 }
 .jumbotron {
-	background-image: zurich.jpg;
+    height: 500px;
+    b: url('img/profilbildlinda.jpg');
 }
 .panel-body{
 	padding-top: 0;
@@ -13,3 +17,4 @@ body {
 	margin-bottom: 15px;
 	width: 100%;
 }
+
