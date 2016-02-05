@@ -1,9 +1,9 @@
 
-body {
-background-color: #000;
+/*body {
+background-image: url("img/profilbildlinda.jpg");
 font-family: Verdana;
 font-size: 16px;
-color: #999
+color: #DAA520;
 }
 #navbar{
 
@@ -11,17 +11,21 @@ font-family: Verdana;
 font-size: 16px;
 
 }
-#jumbotron{
-background-color: #80D8FF;
+
+.jumbotron{
+background-color: #DAA520;
 font-family: Verdana;
 font-size: 16px;
 color: #406C7F;
+}
+.container.jumbotron.h1{
+  color:#DAA520;  
 }
 #mywork
 {background-color: #80D8FF;
 font-family: Verdana;
 font-size: 16px;
-color: #406C7F;
+color: #DAA520;
 }
 #portfolio{
    color: #406C7F; 
@@ -63,4 +67,4 @@ div.img img {
 div.desc {
     padding: 15px;
     text-align: center;
-}
+}*/
