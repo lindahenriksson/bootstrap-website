@@ -28,11 +28,11 @@ a:hover {
 html,
 body {
   /*css for full size background image*/
-  background: url("../img/cover1.jpg") no-repeat center center fixed;
+  /*background: url("../img/cover1.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
   height: 100%;
   background-color: #060;
   color: #fff;
@@ -60,6 +60,9 @@ body {
 /* Padding for spacing */
 .inner {
   padding: 30px; }
+
+.first-page {
+  background: url("../img/cover1.jpg") no-repeat center center; }
 
 /*
  * Header
