@@ -5,10 +5,6 @@
 * Globals
 */
 /* Links */
-$blue: #3356FF;
-$grey: 545454;
-$black: 000000;
-$White: FFFFFF;
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -17,8 +13,7 @@ $White: FFFFFF;
   text-shadow: none;
   /* Prevent inheritence from `body` */
   background-color: #fff;
-  border: 1px solid #545454; 
-}
+  border: 1px solid #545454; }
 
 /*
  * Base structure
@@ -30,12 +25,12 @@ body {
   height: 100%;
   background-color: #fff;
   color: #fff;
-  text-align: center;
-  }
-  h1{
-    font-size: 100px;
-    text-align: center;
-  }
+  text-align: center; }
+
+h1 {
+  font-size: 100px;
+  text-align: center; }
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -52,125 +47,105 @@ body {
 
 .cover-container {
   margin-right: auto;
-  margin-left: auto; 
-}
+  margin-left: auto; }
 
 .first-page {
   background: url("../img/cover1.jpg") no-repeat center center; }
 
 .inner {
-  padding: 60px; 
-}
+  padding: 60px; }
 
-.lead{
-  color:#8BC34A;
-}
-.info{
-  color: #fff;
-}
+.lead {
+  color: #8BC34A; }
+
+.info {
+  color: #fff; }
 
 #about {
-  background-color: #545454;
+  background-color: #545454; }
 
-}
-h2{
+h2 {
   color: #8BC34A;
- margin-top: 50px;
-}
-.img-circle{
-  padding:20px;
-  margin: 0px;
-}
+  margin-top: 50px; }
+
+.img-circle {
+  padding: 20px;
+  margin: 0px; }
 
 #gallery {
-  padding-top:20px;
+  padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #545454; 
-
-}
-
+  background-color: #545454; }
 
 /* Portfolio */
-
 .portfolio {
-    padding: 20px ;
-}
+  padding: 20px; }
 
 .portfolio-item {
-    margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .img-portfolio {
-    margin: 0 auto;
-    padding: 15px;
-    padding-right: 0px;
-    padding-left: 0px;
- 
-}
+  margin: 0 auto;
+  padding: 15px;
+  padding-right: 0px;
+  padding-left: 0px; }
 
 .img-portfolio:hover {
-    opacity: 0.8;
-}
+  opacity: 0.8; }
 
 /* Call to Action */
-
 .call-to-action {
-    padding: 50px 0;
-}
+  padding: 50px 0; }
 
 .call-to-action .btn {
-    margin: 10px;
-}
-h2{
-  color: #8BC34A;
-}
-#contact{
-  background-color: #545454;
+  margin: 10px; }
 
-}
-h2{
-  color: #8BC34A;
-}
-#arrow{
-  color:white;
-  padding-top: 10px;
-}
-a{
-  color: #000;
-}
+h2 {
+  color: #8BC34A; }
+
+#contact {
+  background-color: #545454; }
+
+h2 {
+  color: #8BC34A; }
+
+#arrow {
+  color: white;
+  padding-top: 10px; }
+
+a {
+  color: #000; }
 
 a:hover {
-  color: #8BC34A; 
-}
+  color: #8BC34A; }
+
 .btn-default {
-    color: #000;
-    background-color: #8BC34A;
-    border-color: #8BC34A;
-}
-.text-muted{
   color: #000;
-}
+  background-color: #8BC34A;
+  border-color: #8BC34A; }
+
+.text-muted {
+  color: #000; }
+
 .fa-quote-right:before {
-    color: #8BC34A;
-}
+  color: #8BC34A; }
+
 .fa-quote-left:before {
-    color: #8BC34A;
-}
+  color: #8BC34A; }
+
 /*
  * Header
  */
- .navbar-toggle{
-  color: #8BC34A;
+.navbar-toggle {
+  color: #8BC34A; }
 
- }
 .navbar-brand {
   font-size: 24px;
   font-weight: bold;
-  color: #fff;
-   }
-   .navbar-brand:hover {
-    color:#8BC34A;
-  }
+  color: #fff; }
+
+.navbar-brand:hover {
+  color: #8BC34A; }
 
 .navbar-nav > li {
   display: inline-block; }
@@ -221,37 +196,36 @@ a:hover {
  */
 /*
   /* Pull out the header and footer */
-  .navbar {
-    position: fixed;
-    top: 0; }
+.navbar {
+  position: fixed;
+  top: 0; }
 
-  #footer {
-    font-size: 10px;
-    color: #8BC34A;
-    padding: 1px 5px;
-    font-size: 12px;
-    line-height: 1.5;
-    border-radius: 3px;
-    margin: 10px;
-  }
+#footer {
+  font-size: 10px;
+  color: #8BC34A;
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+  margin: 10px; }
 
+/* Start the vertical centering */
+.site-wrapper-inner {
+  vertical-align: middle; }
 
+/* Handle the widths */
+.navbar,
+.mastfoot,
+.cover-container {
+  width: 100%;
+  /* Must be percentage or pixels for horizontal alignment */ }
 
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle; }
-
-  /* Handle the widths */
-  .navbar,
-  .mastfoot,
-  .cover-container {
-    width: 100%;
-    /* Must be percentage or pixels for horizontal alignment */ } }
 @media (min-width: 992px) {
   .navbar,
   .mastfoot,
   .cover-container {
     width: 700px; } }
+/*# sourceMappingURL=styles.css.map */
 /*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */
