@@ -180,6 +180,12 @@ a:hover {
   color: #8BC34A;
   border-bottom-color: #fff; }
 
+@media (max-width: 768px) {
+  p {
+    font-size: 16px; }
+
+  h1 {
+    font-size: 50px; } }
 @media (min-width: 768px) {
   .navbar-brand {
     float: left; }
@@ -220,17 +226,16 @@ a:hover {
 
 /* Handle the widths */
 .navbar,
-.mastfoot,
+.footer,
 .cover-container {
   width: 100%;
   /* Must be percentage or pixels for horizontal alignment */ }
 
 @media (min-width: 992px) {
   .navbar,
-  .mastfoot,
+  .footer,
   .cover-container {
     width: 700px; } }
-/*# sourceMappingURL=styles.css.map */
 /*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */
